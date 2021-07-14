@@ -1,0 +1,36 @@
+/*------------------------
+ responsive for teblate devices 
+ ---------------------*/
+@media screen and (min-width: 481px) and (max-width:768px){
+    .players-card{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+/*------------------------
+ responsive for Mobile devices 
+ ---------------------*/
+@media screen and (min-width: 320px) and (max-width:480px) {
+    .banner-sec{
+        display: block;
+        padding: 0px 20px;
+    }
+    .banner-info{
+        width:100%;
+    }
+    .banner-info h1{
+        font-size: 45px;
+    }
+    .banner-img{
+        display: flex;
+    }
+    .players-card{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .players-card .player-card{
+        width: 100%;
+        margin:27px 0px;
+    }
+    .footer-logo{
+        width:250px;
+    }
+}

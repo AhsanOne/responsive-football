@@ -51,6 +51,9 @@ a{
     align-items: center;
     padding: 42px 0px;
 }
+.dropdown-icon{
+    display: none;
+}
 .main-menu ul{
     display: flex;
 }
